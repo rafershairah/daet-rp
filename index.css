@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(bodybg.jpg);
+}
+
+#click {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+section .card {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  top: 100px;
+}
