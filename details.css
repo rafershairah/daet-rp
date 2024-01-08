@@ -76,7 +76,7 @@ main {
 }
 
 /* Add media queries for different screen sizes */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   body {
     font-size: 14px; /* Adjust base font size for smaller screens */
   }
@@ -91,5 +91,27 @@ main {
 
   .card-img-overlay h2 {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    font-size: 14px; /* Adjust base font size for smaller screens */
+  }
+
+  header nav a {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .card-img-overlay h1 {
+    font-size: 15px;
+  }
+
+  .card-img-overlay h2 {
+    font-size: 12px;
+  }
+
+  .card-img-overlay h3 {
+    font-size: 10px;
   }
 }
