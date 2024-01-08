@@ -67,6 +67,7 @@ main {
 .card-img-overlay h1 {
   font-size: 3em;
   font-family: "Marcellus", serif;
+  top: 10px;
 }
 
 .card-img {
@@ -75,12 +76,20 @@ main {
 }
 
 /* Add media queries for different screen sizes */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 350px) {
   body {
     font-size: 14px; /* Adjust base font size for smaller screens */
   }
 
   header nav a {
     font-size: 12px; /* Adjust font size for smaller screens */
+  }
+
+  .card-img-overlay h1 {
+    font-size: 2em;
+  }
+
+  .card-img-overlay h2 {
+    font-size: 12px;
   }
 }
