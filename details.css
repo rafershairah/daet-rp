@@ -35,6 +35,16 @@ header nav a {
   color: rgb(25, 25, 25);
 }
 
+header span a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #212121;
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0 auto;
+  margin: 0 10px;
+}
+
 main {
   position: relative;
   z-index: 1;
@@ -55,7 +65,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 .card-img-overlay h1,
